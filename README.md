@@ -25,7 +25,7 @@ Query → Embedding Model → Vector Search → Retrieved Docs → LLM → Respo
 ## Project Structure
 
 ```
-docs-copilot/
+rag-docs-copilot/
 ├── src/
 │   ├── data/              # Data collection and preprocessing
 │   ├── models/            # Embedding models, LLMs, rerankers
@@ -52,7 +52,7 @@ docs-copilot/
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd docs-copilot
+   cd rag-docs-copilot
    ```
 
 2. **Create virtual environment**
