@@ -2,7 +2,6 @@
 
 Welcome! This guide will walk you through setting up and running your RAG system step by step.
 
-**About the Author:** Kamran Shojaei holds a PhD in Plasma Physics and has extensive experience in data science and machine learning. This project represents a comprehensive exploration of modern AI technologies, bridging the gap between traditional physics research methodologies and cutting-edge language model applications.
 ## Quick Start (5 minutes)
 
 ### 1. Set Up Environment

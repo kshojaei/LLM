@@ -1,6 +1,6 @@
 # Docs Copilot - RAG from Scratch
 
-A comprehensive Retrieval-Augmented Generation (RAG) system built from scratch by Kamran Shojaei, a physicist with background in AI/ML. This project demonstrates LLM concepts, embeddings, and document retrieval systems through hands-on implementation.
+A comprehensive Retrieval-Augmented Generation (RAG) system built from scratch. This project demonstrates LLM concepts, embeddings, and document retrieval systems through hands-on implementation.
 
 ## Project Overview
 
@@ -192,10 +192,6 @@ This is a learning project! Feel free to:
 - Add new data sources
 - Optimize performance
 
-## About the Author
-
-**Kamran Shojaei** - Physicist with background in AI/ML
-
 ## License
 
 MIT License - see LICENSE file for details.
@@ -208,5 +204,3 @@ MIT License - see LICENSE file for details.
 - The open-source ML community
 
 ---
-
-**Author:** Kamran Shojaei
