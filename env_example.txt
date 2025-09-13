@@ -1,0 +1,20 @@
+# HuggingFace API token (optional, for downloading models)
+# Get your token from: https://huggingface.co/settings/tokens
+HF_TOKEN=your_huggingface_token_here
+
+# OpenAI API key (optional, for comparison with GPT models)
+OPENAI_API_KEY=your_openai_key_here
+
+# Model configurations
+DEFAULT_EMBEDDING_MODEL=BAAI/bge-base-en-v1.5
+DEFAULT_LLM_MODEL=meta-llama/Llama-3-8B-Instruct
+DEFAULT_RERANKER_MODEL=BAAI/bge-reranker-large
+
+# Vector database settings
+VECTOR_DB_PATH=./data/vector_db
+CHUNK_SIZE=512
+CHUNK_OVERLAP=50
+
+# API settings
+API_HOST=0.0.0.0
+API_PORT=8000
