@@ -175,13 +175,12 @@ The system includes comprehensive monitoring:
 
 ## Future Enhancements
 
-- [ ] Multi-modal RAG (images, tables, code)
-- [ ] Real-time document updates
-- [ ] Multi-language support
-- [ ] Advanced reranking strategies
-- [ ] Query expansion and reformulation
-- [ ] Conversation memory and context
-- [ ] Fact-checking and hallucination detection
+- **Multi-modal RAG (images, tables, code)**
+- **Real-time document updates**
+- **Advanced re-ranking strategies**
+- **Query expansion and reformulation**
+- **Conversation memory and context**
+- **Fact-checking and hallucination detection**
 
 ## Contributing
 
@@ -191,10 +190,6 @@ This is a learning project! Feel free to:
 - Improve evaluation metrics
 - Add new data sources
 - Optimize performance
-
-## License
-
-MIT License - see LICENSE file for details.
 
 ## Acknowledgments
 
