@@ -12,7 +12,7 @@ from pathlib import Path
 
 def test_imports():
     """Test that all required packages can be imported."""
-    print("🔍 Testing package imports...")
+    print("Testing package imports...")
     
     required_packages = [
         ("torch", "PyTorch"),
@@ -34,21 +34,21 @@ def test_imports():
     for package, name in required_packages:
         try:
             importlib.import_module(package)
-            print(f"  ✅ {name}")
+            print(f" {name}")
         except ImportError as e:
-            print(f"  ❌ {name}: {e}")
+            print(f" {name}: {e}")
             failed_imports.append(name)
     
     if failed_imports:
-        print(f"\n❌ Failed to import: {', '.join(failed_imports)}")
+        print(f"\nFailed to import: {', '.join(failed_imports)}")
         return False
     else:
-        print("\n✅ All packages imported successfully!")
+        print("\nAll packages imported successfully!")
         return True
 
 def test_config():
     """Test that our configuration can be loaded."""
-    print("\n🔧 Testing configuration...")
+    print("\nTesting configuration...")
     
     try:
         # Add src to path
@@ -56,26 +56,26 @@ def test_config():
         from src.config import get_config, print_config
         
         config = get_config()
-        print("  ✅ Configuration loaded successfully")
+        print("Configuration loaded successfully")
         
         # Check that required keys exist
         required_keys = ["models", "data", "retrieval", "vector_db"]
         for key in required_keys:
             if key in config:
-                print(f"  ✅ {key} configuration found")
+                print(f"{key} configuration found")
             else:
-                print(f"  ❌ {key} configuration missing")
+                print(f"{key} configuration missing")
                 return False
         
         return True
         
     except Exception as e:
-        print(f"  ❌ Configuration error: {e}")
+        print(f"Configuration error: {e}")
         return False
 
 def test_directories():
     """Test that required directories exist and are writable."""
-    print("\n📁 Testing directories...")
+    print("\n Testing directories...")
     
     required_dirs = [
         "data/raw",
@@ -93,50 +93,50 @@ def test_directories():
         full_path = base_path / dir_path
         
         if full_path.exists():
-            print(f"  ✅ {dir_path}")
+            print(f"{dir_path}")
         else:
-            print(f"  ❌ {dir_path} (creating...)")
+            print(f"{dir_path} (creating...)")
             try:
                 full_path.mkdir(parents=True, exist_ok=True)
-                print(f"  ✅ {dir_path} created")
+                print(f"{dir_path} created")
             except Exception as e:
-                print(f"  ❌ {dir_path} creation failed: {e}")
+                print(f"{dir_path} creation failed: {e}")
                 return False
     
     return True
 
 def test_python_version():
     """Test that Python version is compatible."""
-    print("\n🐍 Testing Python version...")
+    print("\nTesting Python version...")
     
     version = sys.version_info
     if version.major == 3 and version.minor >= 9:
-        print(f"  ✅ Python {version.major}.{version.minor}.{version.micro}")
+        print(f"Python {version.major}.{version.minor}.{version.micro}")
         return True
     else:
-        print(f"  ❌ Python {version.major}.{version.minor}.{version.micro} (need 3.9+)")
+        print(f"Python {version.major}.{version.minor}.{version.micro} (need 3.9+)")
         return False
 
 def test_model_access():
     """Test that we can access model repositories."""
-    print("\n🤖 Testing model access...")
+    print("\nTesting model access...")
     
     try:
         from huggingface_hub import list_models
         
         # Test access to a small model
         models = list_models(limit=1)
-        print("  ✅ HuggingFace Hub access working")
+        print("HuggingFace Hub access working")
         return True
         
     except Exception as e:
-        print(f"  ❌ HuggingFace Hub access failed: {e}")
-        print("  💡 This might be a network issue or you might need to set HF_TOKEN")
+        print(f"HuggingFace Hub access failed: {e}")
+        print("This might be a network issue or you might need to set HF_TOKEN")
         return False
 
 def main():
     """Run all tests."""
-    print("🧪 Docs Copilot Setup Verification")
+    print("Docs Copilot Setup Verification")
     print("=" * 40)
     
     tests = [
@@ -150,17 +150,17 @@ def main():
     results = []
     
     for test_name, test_func in tests:
-        print(f"\n🔍 {test_name}")
+        print(f"\n{test_name}")
         try:
             result = test_func()
             results.append((test_name, result))
         except Exception as e:
-            print(f"  ❌ Test failed with error: {e}")
+            print(f"Test failed with error: {e}")
             results.append((test_name, False))
     
     # Summary
     print("\n" + "=" * 40)
-    print("📊 Test Results Summary:")
+    print("Test Results Summary:")
     
     passed = 0
     total = len(results)
@@ -171,7 +171,7 @@ def main():
         if result:
             passed += 1
     
-    print(f"\n🎯 Overall: {passed}/{total} tests passed")
+    print(f"\n Overall: {passed}/{total} tests passed")
     
     if passed == total:
         print("\nAll tests passed! Your setup is ready.")

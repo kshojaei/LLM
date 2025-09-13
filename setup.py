@@ -26,7 +26,7 @@ def run_command(command: str, description: str) -> bool:
 
 def check_python_version():
     """Check if Python version is compatible."""
-    print("🐍 Checking Python version...")
+    print("Checking Python version...")
     version = sys.version_info
     if version.major == 3 and version.minor >= 9:
         print(f"Python {version.major}.{version.minor}.{version.micro} is compatible!")
@@ -38,7 +38,7 @@ def check_python_version():
 
 def create_directories():
     """Create necessary directories."""
-    print("📁 Creating project directories...")
+    print("Creating project directories...")
     directories = [
         "data/raw",
         "data/processed", 
@@ -62,7 +62,7 @@ def install_dependencies():
 
 def verify_installation():
     """Verify that key packages are installed correctly."""
-    print("🔍 Verifying installation...")
+    print("Verifying installation...")
     
     packages_to_check = [
         ("torch", "PyTorch"),
