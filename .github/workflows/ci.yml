@@ -21,11 +21,21 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     
+    - name: Create data directories
+      run: |
+        mkdir -p data/raw data/processed data/vector_db
+        echo "Data directories created"
+    
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install --no-cache-dir -r requirements.txt
         pip install pytest
+    
+    - name: Force install latest compatible versions
+      run: |
+        pip install --upgrade --force-reinstall sentence-transformers>=5.0.0
+        pip install --upgrade --force-reinstall huggingface_hub>=0.20.0
     
     - name: Download NLTK data
       run: |
@@ -36,6 +46,10 @@ jobs:
         python -c "import sentence_transformers; print('sentence-transformers version:', sentence_transformers.__version__)"
         python -c "import huggingface_hub; print('huggingface_hub version:', huggingface_hub.__version__)"
         python -c "from sentence_transformers import SentenceTransformer; print('SentenceTransformer import successful')"
+    
+    - name: Test HuggingFace compatibility
+      run: |
+        python -m pytest tests/test_huggingface_compatibility.py -v -s
     
     - name: Test imports
       run: |

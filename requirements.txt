@@ -1,6 +1,6 @@
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
-sentence-transformers>=2.2.2
+sentence-transformers>=5.0.0
 scikit-learn==1.3.2
 numpy==1.24.3
 pandas==2.1.3
@@ -28,5 +28,5 @@ nltk==3.8.1
 transformers>=4.35.2
 torch>=2.1.1
 
-# HuggingFace Hub - ensure compatibility
+# HuggingFace Hub - ensure compatibility with newer sentence-transformers
 huggingface_hub>=0.20.0
