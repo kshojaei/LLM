@@ -1,0 +1,42 @@
+[
+  {
+    "id": "wiki_0",
+    "title": "Machine Learning",
+    "text": "Machine learning is a subset of artificial intelligence that focuses on algorithms that can learn from data. It involves training models on large datasets to make predictions or decisions without being explicitly programmed for every task. Common types include supervised learning, unsupervised learning, and reinforcement learning. Machine learning is used in many applications including image recognition, natural language processing, recommendation systems, and autonomous vehicles.",
+    "source": "wikipedia",
+    "length": 485,
+    "word_count": 64
+  },
+  {
+    "id": "wiki_1",
+    "title": "Artificial Intelligence",
+    "text": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. AI systems can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. AI research has been highly successful in developing effective techniques for solving a wide range of problems, from game playing to medical diagnosis.",
+    "source": "wikipedia",
+    "length": 453,
+    "word_count": 64
+  },
+  {
+    "id": "wiki_2",
+    "title": "Deep Learning",
+    "text": "Deep learning is a subset of machine learning based on artificial neural networks with representation learning. It uses multiple layers of neural networks to progressively extract higher-level features from raw input. Deep learning has been particularly successful in computer vision, speech recognition, and natural language processing. Popular deep learning architectures include convolutional neural networks (CNNs), recurrent neural networks (RNNs), and transformer models.",
+    "source": "wikipedia",
+    "length": 477,
+    "word_count": 62
+  },
+  {
+    "id": "wiki_3",
+    "title": "Natural Language Processing",
+    "text": "Natural Language Processing (NLP) is a field of artificial intelligence that focuses on the interaction between computers and humans through natural language. NLP combines computational linguistics with statistical, machine learning, and deep learning models to help computers understand, interpret, and manipulate human language. Applications include machine translation, sentiment analysis, chatbots, and text summarization.",
+    "source": "wikipedia",
+    "length": 426,
+    "word_count": 53
+  },
+  {
+    "id": "wiki_4",
+    "title": "Computer Vision",
+    "text": "Computer vision is a field of artificial intelligence that trains computers to interpret and understand the visual world. Using digital images from cameras and videos and deep learning models, machines can accurately identify and classify objects and react to what they see. Computer vision is used in autonomous vehicles, medical image analysis, facial recognition systems, and augmented reality applications.",
+    "source": "wikipedia",
+    "length": 410,
+    "word_count": 59
+  }
+]
