@@ -1,177 +1,353 @@
 [
   {
-    "text": "Machine learning is a subset of artificial intelligence that focuses on algorithms that can learn from data It involves training models on large datasets to make predictions or decisions without being explicitly programmed for every task Common types include supervised learning, unsupervised learning, and reinforcement learning Machine learning is used in many applications including image recognition, natural language processing, recommendation systems, and autonomous vehicles",
+    "text": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalise to unseen data, and thus perform tasks without explicit instructions Within a subdiscipline in machine learning, advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance",
     "type": "semantic",
     "chunk_id": "wiki_0_chunk_0",
     "source_doc_id": "wiki_0",
-    "source_title": "Machine Learning",
+    "source_title": "Machine learning",
     "source": "wikipedia",
     "chunk_index": 0,
-    "word_count": 64,
-    "char_count": 481,
+    "word_count": 68,
+    "char_count": 460,
     "metadata": {
-      "original_length": 485,
-      "cleaned_length": 485,
+      "original_length": 462,
+      "cleaned_length": 462,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans AI systems can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation AI research has been highly successful in developing effective techniques for solving a wide range of problems, from game playing to medical diagnosis",
+    "text": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals",
     "type": "semantic",
     "chunk_id": "wiki_1_chunk_0",
     "source_doc_id": "wiki_1",
-    "source_title": "Artificial Intelligence",
+    "source_title": "Artificial intelligence",
     "source": "wikipedia",
     "chunk_index": 0,
     "word_count": 64,
-    "char_count": 450,
+    "char_count": 461,
     "metadata": {
-      "original_length": 453,
-      "cleaned_length": 453,
+      "original_length": 463,
+      "cleaned_length": 463,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "Deep learning is a subset of machine learning based on artificial neural networks with representation learning It uses multiple layers of neural networks to progressively extract higher-level features from raw input Deep learning has been particularly successful in computer vision, speech recognition, and natural language processing Popular deep learning architectures include convolutional neural networks (CNNs), recurrent neural networks (RNNs), and transformer models",
+    "text": "In machine learning, deep learning focuses on utilizing multilayered neural networks to perform tasks such as classification, regression, and representation learning The field takes inspiration from biological neuroscience and is centered around stacking artificial neurons into layers and training them to process data The adjective deep refers to the use of multiple layers in the network Methods used can be supervised, semi-supervised or unsupervised",
     "type": "semantic",
     "chunk_id": "wiki_2_chunk_0",
     "source_doc_id": "wiki_2",
-    "source_title": "Deep Learning",
+    "source_title": "Deep learning",
     "source": "wikipedia",
     "chunk_index": 0,
-    "word_count": 62,
-    "char_count": 473,
+    "word_count": 64,
+    "char_count": 454,
     "metadata": {
-      "original_length": 477,
-      "cleaned_length": 477,
+      "original_length": 462,
+      "cleaned_length": 458,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "Natural Language Processing (NLP) is a field of artificial intelligence that focuses on the interaction between computers and humans through natural language NLP combines computational linguistics with statistical, machine learning, and deep learning models to help computers understand, interpret, and manipulate human language Applications include machine translation, sentiment analysis, chatbots, and text summarization",
+    "text": "Natural language processing (NLP) is the processing of natural language information by a computer The study of NLP, a subfield of computer science, is generally associated with artificial intelligence NLP is related to information retrieval, knowledge representation, computational linguistics, and more broadly with linguistics",
     "type": "semantic",
     "chunk_id": "wiki_3_chunk_0",
     "source_doc_id": "wiki_3",
-    "source_title": "Natural Language Processing",
+    "source_title": "Natural language processing",
     "source": "wikipedia",
     "chunk_index": 0,
-    "word_count": 53,
-    "char_count": 423,
+    "word_count": 44,
+    "char_count": 328,
     "metadata": {
-      "original_length": 426,
-      "cleaned_length": 426,
+      "original_length": 331,
+      "cleaned_length": 331,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "Computer vision is a field of artificial intelligence that trains computers to interpret and understand the visual world Using digital images from cameras and videos and deep learning models, machines can accurately identify and classify objects and react to what they see Computer vision is used in autonomous vehicles, medical image analysis, facial recognition systems, and augmented reality applications",
+    "text": "Computer vision tasks include methods for acquiring, processing, analyzing, and understanding digital images, and extraction of high-dimensional data from the real world in order to produce numerical or symbolic information, e in the form of decisions Understanding in this context signifies the transformation of visual images into descriptions of the world that make sense to thought processes and can elicit appropriate action",
     "type": "semantic",
     "chunk_id": "wiki_4_chunk_0",
     "source_doc_id": "wiki_4",
-    "source_title": "Computer Vision",
+    "source_title": "Computer vision",
     "source": "wikipedia",
     "chunk_index": 0,
-    "word_count": 59,
-    "char_count": 407,
+    "word_count": 62,
+    "char_count": 429,
     "metadata": {
-      "original_length": 410,
-      "cleaned_length": 410,
+      "original_length": 627,
+      "cleaned_length": 625,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration The best performing models also connect the encoder and decoder through an attention mechanism We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely",
+    "text": "This image understanding can be seen as the disentangling of symbolic information from image data using models constructed with the aid of geometry, physics, statistics, and learning theory",
+    "type": "semantic",
+    "chunk_id": "wiki_4_chunk_1",
+    "source_doc_id": "wiki_4",
+    "source_title": "Computer vision",
+    "source": "wikipedia",
+    "chunk_index": 1,
+    "word_count": 28,
+    "char_count": 189,
+    "metadata": {
+      "original_length": 627,
+      "cleaned_length": 625,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "The advancement of open-source text-to-image (T2I) models has been hindered by the absence of large-scale, reasoning-focused datasets and comprehensive evaluation benchmarks, resulting in a performance gap compared to leading closed-source systems To address this challenge, We introduce FLUX-Reason-6M and PRISM-Bench (Precise and Robust Image Synthesis Measurement Benchmark)",
     "type": "semantic",
     "chunk_id": "arxiv_0_chunk_0",
     "source_doc_id": "arxiv_0",
-    "source_title": "Attention Is All You Need",
+    "source_title": "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning\n  Dataset and Comprehensive Benchmark",
     "source": "arxiv",
     "chunk_index": 0,
-    "word_count": 52,
-    "char_count": 390,
+    "word_count": 47,
+    "char_count": 377,
     "metadata": {
-      "original_length": 562,
-      "cleaned_length": 562,
+      "original_length": 1595,
+      "cleaned_length": 1592,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train",
+    "text": "FLUX-Reason-6M is a massive dataset consisting of 6 million high-quality FLUX-generated images and 20 million bilingual (English and Chinese) descriptions specifically designed to teach complex reasoning The image are organized according to six key characteristics: Imagination, Entity, Text rendering, Style, Affection, and Composition, and design explicit Generation Chain-of-Thought (GCoT) to provide detailed breakdowns of image generation steps",
     "type": "semantic",
     "chunk_id": "arxiv_0_chunk_1",
     "source_doc_id": "arxiv_0",
-    "source_title": "Attention Is All You Need",
+    "source_title": "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning\n  Dataset and Comprehensive Benchmark",
     "source": "arxiv",
     "chunk_index": 1,
-    "word_count": 25,
-    "char_count": 167,
+    "word_count": 57,
+    "char_count": 449,
     "metadata": {
-      "original_length": 562,
-      "cleaned_length": 562,
+      "original_length": 1595,
+      "cleaned_length": 1592,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers",
+    "text": "The whole data curation takes 15,000 A100 GPU days, providing the community with a resource previously unattainable outside of large industrial labs PRISM-Bench offers a novel evaluation standard with seven distinct tracks, including a formidable Long Text challenge using GCoT Through carefully designed prompts, it utilizes advanced vision-language models for nuanced human-aligned assessment of prompt-image alignment and image aesthetics",
+    "type": "semantic",
+    "chunk_id": "arxiv_0_chunk_2",
+    "source_doc_id": "arxiv_0",
+    "source_title": "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning\n  Dataset and Comprehensive Benchmark",
+    "source": "arxiv",
+    "chunk_index": 2,
+    "word_count": 59,
+    "char_count": 441,
+    "metadata": {
+      "original_length": 1595,
+      "cleaned_length": 1592,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "Our extensive evaluation of 19 leading models on PRISM-Bench reveals critical performance gaps and highlights specific areas requiring improvement Our dataset, benchmark, and evaluation code are released to catalyze the next wave of reasoning-oriented T2I generation Project page: https:flux-reason-6m",
+    "type": "semantic",
+    "chunk_id": "arxiv_0_chunk_3",
+    "source_doc_id": "arxiv_0",
+    "source_title": "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning\n  Dataset and Comprehensive Benchmark",
+    "source": "arxiv",
+    "chunk_index": 3,
+    "word_count": 39,
+    "char_count": 301,
+    "metadata": {
+      "original_length": 1595,
+      "cleaned_length": 1592,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "Large language models require massive memory footprints, severely limiting deployment on consumer hardware Quantization reduces memory through lower numerical precision, but extreme 2-bit quantization suffers from catastrophic performance loss due to outliers in activations Rotation-based methods such as QuIP and QuaRot apply orthogonal transforms to eliminate outliers before quantization, using computational invariance: mathbfy mathbfWx (mathbfWQT)(mathbfQx) for orthogonal mathbfQ",
     "type": "semantic",
     "chunk_id": "arxiv_1_chunk_0",
     "source_doc_id": "arxiv_1",
-    "source_title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
     "source": "arxiv",
     "chunk_index": 0,
-    "word_count": 45,
-    "char_count": 334,
+    "word_count": 58,
+    "char_count": 486,
     "metadata": {
-      "original_length": 606,
-      "cleaned_length": 606,
+      "original_length": 1790,
+      "cleaned_length": 1740,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications",
+    "text": "However, these methods use fixed transforms--Hadamard matrices achieving optimal worst-case coherence mu 1sqrtn--that cannot adapt to specific weight distributions We identify that different transformer layers exhibit distinct outlier patterns, motivating layer-adaptive rotations rather than one-size-fits-all approaches We propose ButterflyQuant, which replaces Hadamard rotations with learnable butterfly transforms parameterized by continuous Givens rotation angles",
     "type": "semantic",
     "chunk_id": "arxiv_1_chunk_1",
     "source_doc_id": "arxiv_1",
-    "source_title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
     "source": "arxiv",
     "chunk_index": 1,
-    "word_count": 38,
-    "char_count": 268,
+    "word_count": 53,
+    "char_count": 469,
     "metadata": {
-      "original_length": 606,
-      "cleaned_length": 606,
+      "original_length": 1790,
+      "cleaned_length": 1740,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G The training procedure for G is to maximize the probability of D making a mistake This framework corresponds to a minimax two-player game",
+    "text": "Unlike Hadamards discrete 1, -1 entries that are non-differentiable and prohibit gradient-based learning, butterfly transforms continuous parameterization enables smooth optimization while guaranteeing orthogonality by construction This orthogonal constraint ensures theoretical guarantees in outlier suppression while achieving O(n log n) computational complexity with only fracn log n2 learnable parameters",
+    "type": "semantic",
+    "chunk_id": "arxiv_1_chunk_2",
+    "source_doc_id": "arxiv_1",
+    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
+    "source": "arxiv",
+    "chunk_index": 2,
+    "word_count": 48,
+    "char_count": 408,
+    "metadata": {
+      "original_length": 1790,
+      "cleaned_length": 1740,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "We further introduce a uniformity regularization on post-transformation activations to promote smoother distributions amenable to quantization Learning requires only 128 calibration samples and converges in minutes on a single GPU--a negligible one-time cost On LLaMA-2-7B with 2-bit quantization, ButterflyQuant achieves 15 4 perplexity versus 22 1 for QuaRot",
+    "type": "semantic",
+    "chunk_id": "arxiv_1_chunk_3",
+    "source_doc_id": "arxiv_1",
+    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
+    "source": "arxiv",
+    "chunk_index": 3,
+    "word_count": 48,
+    "char_count": 360,
+    "metadata": {
+      "original_length": 1790,
+      "cleaned_length": 1740,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "Large language models require massive memory footprints, severely limiting deployment on consumer hardware Quantization reduces memory through lower numerical precision, but extreme 2-bit quantization suffers from catastrophic performance loss due to outliers in activations Rotation-based methods such as QuIP and QuaRot apply orthogonal transforms to eliminate outliers before quantization, using computational invariance: mathbfy mathbfWx (mathbfWQT)(mathbfQx) for orthogonal mathbfQ",
     "type": "semantic",
     "chunk_id": "arxiv_2_chunk_0",
     "source_doc_id": "arxiv_2",
-    "source_title": "Generative Adversarial Networks",
+    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
     "source": "arxiv",
     "chunk_index": 0,
-    "word_count": 72,
-    "char_count": 444,
+    "word_count": 58,
+    "char_count": 486,
     "metadata": {
-      "original_length": 447,
-      "cleaned_length": 447,
+      "original_length": 1790,
+      "cleaned_length": 1740,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "Deeper neural networks are more difficult to train We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth",
+    "text": "However, these methods use fixed transforms--Hadamard matrices achieving optimal worst-case coherence mu 1sqrtn--that cannot adapt to specific weight distributions We identify that different transformer layers exhibit distinct outlier patterns, motivating layer-adaptive rotations rather than one-size-fits-all approaches We propose ButterflyQuant, which replaces Hadamard rotations with learnable butterfly transforms parameterized by continuous Givens rotation angles",
+    "type": "semantic",
+    "chunk_id": "arxiv_2_chunk_1",
+    "source_doc_id": "arxiv_2",
+    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
+    "source": "arxiv",
+    "chunk_index": 1,
+    "word_count": 53,
+    "char_count": 469,
+    "metadata": {
+      "original_length": 1790,
+      "cleaned_length": 1740,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "Unlike Hadamards discrete 1, -1 entries that are non-differentiable and prohibit gradient-based learning, butterfly transforms continuous parameterization enables smooth optimization while guaranteeing orthogonality by construction This orthogonal constraint ensures theoretical guarantees in outlier suppression while achieving O(n log n) computational complexity with only fracn log n2 learnable parameters",
+    "type": "semantic",
+    "chunk_id": "arxiv_2_chunk_2",
+    "source_doc_id": "arxiv_2",
+    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
+    "source": "arxiv",
+    "chunk_index": 2,
+    "word_count": 48,
+    "char_count": 408,
+    "metadata": {
+      "original_length": 1790,
+      "cleaned_length": 1740,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "We further introduce a uniformity regularization on post-transformation activations to promote smoother distributions amenable to quantization Learning requires only 128 calibration samples and converges in minutes on a single GPU--a negligible one-time cost On LLaMA-2-7B with 2-bit quantization, ButterflyQuant achieves 15 4 perplexity versus 22 1 for QuaRot",
+    "type": "semantic",
+    "chunk_id": "arxiv_2_chunk_3",
+    "source_doc_id": "arxiv_2",
+    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
+    "source": "arxiv",
+    "chunk_index": 3,
+    "word_count": 48,
+    "char_count": 360,
+    "metadata": {
+      "original_length": 1790,
+      "cleaned_length": 1740,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "Vision-Language-Action (VLA) models have recently emerged as a powerful paradigm for robotic manipulation Despite substantial progress enabled by large-scale pretraining and supervised fine-tuning (SFT), these models face two fundamental challenges: (i) the scarcity and high cost of large-scale human-operated robotic trajectories required for SFT scaling, and (ii) limited generalization to tasks involving distribution shift",
     "type": "semantic",
     "chunk_id": "arxiv_3_chunk_0",
     "source_doc_id": "arxiv_3",
-    "source_title": "ResNet: Deep Residual Learning for Image Recognition",
+    "source_title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
     "source": "arxiv",
     "chunk_index": 0,
-    "word_count": 70,
-    "char_count": 489,
+    "word_count": 54,
+    "char_count": 427,
     "metadata": {
-      "original_length": 493,
-      "cleaned_length": 493,
+      "original_length": 1508,
+      "cleaned_length": 1495,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "Recent breakthroughs in Large Reasoning Models (LRMs) demonstrate that reinforcement learning (RL) can dramatically enhance step-by-step reasoning capabilities, raising a natural question: Can RL similarly improve the long-horizon step-by-step action planning of VLA In this work, we introduce SimpleVLA-RL, an efficient RL framework tailored for VLA models Building upon veRL, we introduce VLA-specific trajectory sampling, scalable parallelization, multi-environment rendering, and optimized loss computation",
+    "type": "semantic",
+    "chunk_id": "arxiv_3_chunk_1",
+    "source_doc_id": "arxiv_3",
+    "source_title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
+    "source": "arxiv",
+    "chunk_index": 1,
+    "word_count": 63,
+    "char_count": 510,
+    "metadata": {
+      "original_length": 1508,
+      "cleaned_length": 1495,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "When applied to OpenVLA-OFT, SimpleVLA-RL achieves SoTA performance on LIBERO and even outperforms pi_0 on RoboTwin 1 0 with the exploration-enhancing strategies we introduce SimpleVLA-RL not only reduces dependence on large-scale data and enables robust generalization, but also remarkably surpasses SFT in real-world tasks Moreover, we identify a novel phenomenon pushcut during RL training, wherein the policy discovers previously unseen patterns beyond those seen in the previous training process",
+    "type": "semantic",
+    "chunk_id": "arxiv_3_chunk_2",
+    "source_doc_id": "arxiv_3",
+    "source_title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
+    "source": "arxiv",
+    "chunk_index": 2,
+    "word_count": 69,
+    "char_count": 500,
+    "metadata": {
+      "original_length": 1508,
+      "cleaned_length": 1495,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "Github: https:github comPRIME-RLSimpleVLA-RL",
+    "type": "semantic",
+    "chunk_id": "arxiv_3_chunk_3",
+    "source_doc_id": "arxiv_3",
+    "source_title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
+    "source": "arxiv",
+    "chunk_index": 3,
+    "word_count": 3,
+    "char_count": 44,
+    "metadata": {
+      "original_length": 1508,
+      "cleaned_length": 1495,
       "chunking_strategy": "semantic"
     }
   }
