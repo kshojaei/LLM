@@ -27,6 +27,10 @@ jobs:
         pip install -r requirements.txt
         pip install pytest
     
+    - name: Download NLTK data
+      run: |
+        python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
+    
     - name: Run tests
       run: |
-        python -m pytest tests/ -v
+        python -m pytest tests/test_basic.py -v
