@@ -2,7 +2,7 @@
 
 Learn RAG systems through hands-on Jupyter notebooks and deploy working inference pipelines.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Option 1: Docker (Recommended)
 ```bash
@@ -19,7 +19,7 @@ python setup.py
 jupyter lab notebooks/
 ```
 
-## 📚 Learning Path
+##  Learning Path
 
 Work through these notebooks in order:
 
@@ -33,7 +33,7 @@ Work through these notebooks in order:
 8. **08_evaluation.ipynb** - Measure performance
 9. **09_optimization.ipynb** - Deploy and optimize
 
-## 🌐 Host Your System
+##  Host Your System
 
 ### Railway (Easiest)
 1. Go to [railway.app](https://railway.app)
@@ -53,7 +53,7 @@ curl -X POST "https://your-app.railway.app/query" \
   -d '{"question": "What is machine learning?"}'
 ```
 
-## 🎯 What You'll Build
+##  What You'll Build
 
 - **Data Pipeline**: Collect and process documents
 - **Vector Database**: Store embeddings for search
@@ -68,7 +68,7 @@ curl -X POST "https://your-app.railway.app/query" \
 - 8GB+ RAM (16GB+ for full models)
 - 10GB+ disk space
 
-## 🆘 Need Help?
+##  Need Help?
 
 - **Issues**: Open a GitHub issue
 - **Docs**: Check the `docs/` folder
@@ -76,4 +76,4 @@ curl -X POST "https://your-app.railway.app/query" \
 
 ---
 
-**Start with the notebooks - everything else is just details!** 🚀
+**Start with the notebooks - everything else is just details!** 

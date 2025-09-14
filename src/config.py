@@ -103,7 +103,7 @@ VECTOR_DB_CONFIG = {
     "type": "chromadb",  # Options: "chromadb", "faiss"
     "collection_name": "docs_copilot",
     "distance_metric": "cosine",  # Options: "cosine", "euclidean", "manhattan"
-    "persist_directory": str(DATA_DIR / "vector_db")
+    "persist_directory": str(DATA_DIR / "vector_db" / "chroma_db")
 }
 
 # API configurations

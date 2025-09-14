@@ -20,7 +20,14 @@ import chromadb
 from chromadb.config import Settings
 import faiss
 from sklearn.metrics.pairwise import cosine_similarity
-from rank_bm25 import BM25Okapi
+try:
+    from rank_bm25 import BM25Okapi
+except ImportError:
+    print("rank_bm25 not found. Installing...")
+    import subprocess
+    import sys
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "rank-bm25"])
+    from rank_bm25 import BM25Okapi
 
 # Import our modules
 import sys
@@ -127,7 +134,7 @@ class DenseRetriever(BaseRetriever):
         """Update ChromaDB with new documents."""
         if self.chroma_client is None:
             # Initialize ChromaDB
-            chroma_dir = DATA_DIR / "vector_db" / "chromadb"
+            chroma_dir = DATA_DIR / "vector_db" / "chroma_db"
             chroma_dir.mkdir(parents=True, exist_ok=True)
             
             self.chroma_client = chromadb.PersistentClient(path=str(chroma_dir))
