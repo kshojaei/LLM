@@ -70,7 +70,7 @@ class TextPreprocessor:
         
         # Normalize quotes and apostrophes
         text = re.sub(r'["""]', '"', text)
-        text = re.sub(r'[''']', "'", text)
+        text = re.sub(r"[''']", "'", text)
         
         # Remove multiple punctuation
         text = re.sub(r'([.!?]){2,}', r'\1', text)
