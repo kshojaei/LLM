@@ -47,6 +47,12 @@ docker run -p 8000:8000 rag-app
 - Vector databases (ChromaDB, FAISS)
 - Similarity search
 
+### 10. Production Vector Database (Notebook 10)
+- Production vector database management
+- Multiple backend support (ChromaDB, FAISS, Pinecone)
+- Performance optimization and monitoring
+- Scalability and production deployment
+
 ### 4. Text Preprocessing (Notebook 4)
 - Text chunking strategies
 - Document preprocessing
@@ -79,13 +85,20 @@ docker run -p 8000:8000 rag-app
 
 ## Production Deployment
 
-### Web Application
-The project includes a production-ready web application (`smart_web_demo.py`) that combines all components:
+### Web Applications
+The project includes multiple production-ready web applications:
 
+#### Main Web App (`web_app.py`)
 - **Web Interface**: Clean, responsive UI for asking questions
 - **API Endpoints**: RESTful API for programmatic access
 - **Smart Retrieval**: Advanced similarity matching
 - **Real-time Responses**: Fast query processing
+
+#### Vector Database Web App (`web_app_vector.py`)
+- **Production Vector DB**: Uses our comprehensive vector database system
+- **Multiple Backends**: Support for ChromaDB, FAISS, and Pinecone
+- **Advanced Features**: Metadata filtering, performance monitoring
+- **Scalable Architecture**: Ready for production deployment
 
 ### Deployment Options
 
@@ -120,13 +133,20 @@ Use the provided Dockerfile with ECS, Cloud Run, or other container services.
 
 ```
 LLM/
-├── notebooks/           # Learning notebooks (1-9)
+├── notebooks/           # Learning notebooks (1-10)
 ├── src/                # Source code modules
+│   ├── vector_db/      # Production vector database system
+│   ├── data/           # Data collection and preprocessing
+│   ├── models/         # Embedding and LLM models
+│   ├── retrieval/      # Retrieval systems
+│   ├── evaluation/     # Evaluation metrics
+│   └── optimization/   # Performance optimization
 ├── data/               # Data storage
 │   ├── raw/            # Raw data (Wikipedia, ArXiv)
 │   ├── processed/      # Processed data (chunks, embeddings)
 │   └── vector_db/      # Vector databases (ChromaDB, FAISS)
 ├── web_app.py          # Main web application
+├── web_app_vector.py   # Vector database web application
 ├── advanced_app.py     # Advanced production system
 ├── requirements.txt    # Dependencies
 ├── Dockerfile          # Docker configuration
@@ -137,14 +157,17 @@ LLM/
 ## Features
 
 ### Learning Components
-- **9 Interactive Notebooks**: Step-by-step RAG learning
+- **10 Interactive Notebooks**: Step-by-step RAG learning
 - **Real Data**: Wikipedia and ArXiv datasets
 - **Multiple Models**: Various embedding and LLM options
+- **Vector Database System**: Production-ready vector database management
 - **Evaluation Tools**: Comprehensive metrics and analysis
 
 ### Production Components
 - **Web Interface**: Modern, responsive UI
 - **API**: RESTful endpoints for integration
+- **Vector Database Management**: ChromaDB, FAISS, Pinecone support
+- **Performance Monitoring**: Built-in metrics and analytics
 - **Docker Support**: Easy containerization
 - **Cloud Ready**: Deploy to any cloud platform
 
@@ -157,10 +180,11 @@ LLM/
 4. Understand RAG concepts deeply
 
 ### Production Mode
-1. Run `python3 web_app.py`
-2. Open http://localhost:8000
-3. Ask questions about AI, technology, science, etc.
-4. Deploy to cloud for public access
+1. **Basic Web App**: Run `python3 web_app.py`
+2. **Vector Database App**: Run `python3 web_app_vector.py`
+3. Open http://localhost:8000
+4. Ask questions about AI, technology, science, etc.
+5. Deploy to cloud for public access
 
 ## API Reference
 
@@ -188,11 +212,50 @@ LLM/
 }
 ```
 
+## Vector Database System
+
+The project includes a comprehensive vector database management system supporting multiple backends and production features.
+
+### Supported Backends
+- **ChromaDB**: Local development and small-scale production
+- **FAISS**: High-performance search for large datasets
+- **Pinecone**: Cloud-native, fully managed solution
+
+### Key Features
+- **Document Management**: Add, update, delete documents
+- **Metadata Filtering**: Filter results by custom metadata
+- **Performance Monitoring**: Track search times and memory usage
+- **Backup & Recovery**: Database backup and restoration
+- **Scalability**: Handle millions of documents efficiently
+
+### Quick Start
+```python
+from src.vector_db.vector_manager import create_vector_database
+
+# Create vector database
+vdb = create_vector_database(
+    backend="chromadb",
+    collection_name="my_docs",
+    documents=documents
+)
+
+# Search documents
+results = vdb.search("What is machine learning?", top_k=5)
+
+# Get database statistics
+stats = vdb.get_stats()
+```
+
+### Documentation
+For detailed information about the vector database system, see [VECTOR_DATABASE_GUIDE.md](VECTOR_DATABASE_GUIDE.md).
+
 ## Dependencies
 
 - Python 3.8+
 - FastAPI
 - Sentence Transformers
+- ChromaDB
+- FAISS
 - Scikit-learn
 - NumPy, Pandas
 - Docker (optional)

@@ -5,3 +5,13 @@ scikit-learn==1.3.2
 numpy==1.24.3
 pandas==2.1.3
 python-multipart==0.0.6
+
+# Vector Database Dependencies
+chromadb==0.4.15
+faiss-cpu==1.7.4
+pinecone-client==2.2.4
+
+# Additional Dependencies
+matplotlib==3.7.2
+seaborn==0.12.2
+psutil==5.9.6
