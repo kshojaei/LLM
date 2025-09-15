@@ -62,7 +62,7 @@ curl -X POST "https://your-app.railway.app/query" \
 - **API Server**: REST API for queries
 - **Deployed System**: Live RAG system others can use
 
-## 🛠️ Requirements
+##  Requirements
 
 - Python 3.9+
 - 8GB+ RAM (16GB+ for full models)

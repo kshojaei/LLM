@@ -1,19 +1,19 @@
-# Hi there, I'm Kamran Shojaei! 👋
+# Hi there, I'm Kamran Shojaei! 
 
 [![GitHub](https://img.shields.io/badge/GitHub-kshojaei-black?style=for-the-badge&logo=github)](https://github.com/kshojaei)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/kshojaei)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:kshojaei@example.com)
 
-## 🚀 About Me
+##  About Me
 
 I'm a passionate **Machine Learning Engineer** and **AI Researcher** with expertise in:
-- 🤖 **Retrieval-Augmented Generation (RAG)** systems
-- 🧠 **Natural Language Processing** and **Computer Vision**
-- 🔍 **Vector Databases** and **Semantic Search**
-- 🐍 **Python** development and **MLOps**
-- ☁️ **Cloud Computing** and **Production Deployment**
+-  **Retrieval-Augmented Generation (RAG)** systems
+-  **Natural Language Processing** and **Computer Vision**
+-  **Vector Databases** and **Semantic Search**
+-  **Python** development and **MLOps**
+-  **Cloud Computing** and **Production Deployment**
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Languages & Frameworks
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -33,37 +33,37 @@ I'm a passionate **Machine Learning Engineer** and **AI Researcher** with expert
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-## 🌟 Featured Projects
+##  Featured Projects
 
-### 🔍 [RAG Learning Project](https://github.com/kshojaei/rag-docs-copilot)
+###  [RAG Learning Project](https://github.com/kshojaei/rag-docs-copilot)
 **Complete Guide to Retrieval-Augmented Generation**
-- 📚 10 Interactive Jupyter Notebooks
-- 🗄️ Multiple Vector Databases (ChromaDB, FAISS, Pinecone)
-- 🤖 LLM Integration & Production Deployment
-- ⭐ **Perfect for learning RAG from scratch!**
+-  10 Interactive Jupyter Notebooks
+-  Multiple Vector Databases (ChromaDB, FAISS, Pinecone)
+-  LLM Integration & Production Deployment
+-  **Perfect for learning RAG from scratch!**
 
-### 🧠 [AI Research Projects](https://github.com/kshojaei)
+###  [AI Research Projects](https://github.com/kshojaei)
 **Machine Learning & NLP Research**
-- 🔬 Advanced RAG techniques
-- 📊 Vector database optimization
-- 🎯 Semantic search algorithms
-- 📈 Performance analysis & evaluation
+-  Advanced RAG techniques
+-  Vector database optimization
+-  Semantic search algorithms
+-  Performance analysis & evaluation
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=kshojaei&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kshojaei&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </div>
 
-## 🎯 What I'm Working On
+##  What I'm Working On
 
-- 🔥 **Advanced RAG Systems** - Building next-generation retrieval systems
-- 🧠 **LLM Integration** - Exploring new language model capabilities
-- 📊 **Vector Database Research** - Optimizing similarity search performance
-- 🌐 **Production ML Systems** - Deploying scalable AI applications
+-  **Advanced RAG Systems** - Building next-generation retrieval systems
+-  **LLM Integration** - Exploring new language model capabilities
+-  **Vector Database Research** - Optimizing similarity search performance
+-  **Production ML Systems** - Deploying scalable AI applications
 
-## 💡 Areas of Expertise
+##  Areas of Expertise
 
 | Domain | Technologies | Experience |
 |--------|-------------|------------|
@@ -72,31 +72,31 @@ I'm a passionate **Machine Learning Engineer** and **AI Researcher** with expert
 | **Cloud & MLOps** | AWS, Docker, Kubernetes, CI/CD | 4+ years |
 | **Data Engineering** | PostgreSQL, MongoDB, Apache Spark | 3+ years |
 
-## 🏆 Achievements
+##  Achievements
 
-- 🥇 **Published Research** in AI/ML conferences
-- 🚀 **Open Source Contributor** to major ML libraries
-- 📚 **Technical Writer** - Creating educational content
-- 🎓 **Mentor** - Helping others learn ML and AI
+-  **Published Research** in AI/ML conferences
+-  **Open Source Contributor** to major ML libraries
+-  **Technical Writer** - Creating educational content
+-  **Mentor** - Helping others learn ML and AI
 
-## 📚 Learning & Teaching
+##  Learning & Teaching
 
 I believe in continuous learning and sharing knowledge:
 
-- 📖 **Technical Blogging** - Writing about ML, AI, and RAG systems
-- 🎓 **Mentoring** - Guiding newcomers in the ML field
-- 🎤 **Speaking** - Presenting at tech meetups and conferences
-- 📝 **Documentation** - Creating comprehensive learning resources
+-  **Technical Blogging** - Writing about ML, AI, and RAG systems
+-  **Mentoring** - Guiding newcomers in the ML field
+-  **Speaking** - Presenting at tech meetups and conferences
+-  **Documentation** - Creating comprehensive learning resources
 
-## 🤝 Let's Connect!
+##  Let's Connect!
 
 I'm always interested in:
-- 🤝 **Collaborating** on interesting ML/AI projects
-- 💬 **Discussing** new technologies and research
-- 📧 **Networking** with fellow developers and researchers
-- 🎯 **Mentoring** aspiring ML engineers
+-  **Collaborating** on interesting ML/AI projects
+-  **Discussing** new technologies and research
+-  **Networking** with fellow developers and researchers
+-  **Mentoring** aspiring ML engineers
 
-### 📬 Get in Touch
+###  Get in Touch
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/kshojaei)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:kshojaei@example.com)

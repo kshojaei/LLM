@@ -166,11 +166,11 @@ def get_config() -> Dict[str, Any]:
 def print_config():
     """Print the current configuration."""
     config = get_config()
-    print("📋 Docs Copilot Configuration")
+    print(" Docs Copilot Configuration")
     print("=" * 40)
     
     for section, settings in config.items():
-        print(f"\n🔧 {section.upper()}:")
+        print(f"\n {section.upper()}:")
         if isinstance(settings, dict):
             for key, value in settings.items():
                 print(f"  {key}: {value}")

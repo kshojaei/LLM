@@ -7,21 +7,21 @@
 
 A comprehensive, hands-on project for learning **Retrieval-Augmented Generation (RAG)** systems from scratch to production deployment. Perfect for beginners and intermediate developers who want to understand and build RAG applications.
 
-## 🚀 What is RAG?
+##  What is RAG?
 
 **Retrieval-Augmented Generation (RAG)** is a powerful AI technique that combines information retrieval with text generation. It allows language models to access external knowledge and provide more accurate, up-to-date responses.
 
 ### Key Benefits:
-- ✅ **Accurate Information**: Access real-time, factual data
-- ✅ **Reduced Hallucination**: Ground responses in retrieved documents  
-- ✅ **Cost Effective**: Use smaller models with external knowledge
-- ✅ **Domain Specific**: Customize for your specific use case
+-  **Accurate Information**: Access real-time, factual data
+-  **Reduced Hallucination**: Ground responses in retrieved documents  
+-  **Cost Effective**: Use smaller models with external knowledge
+-  **Domain Specific**: Customize for your specific use case
 
-## 📚 What You'll Learn
+##  What You'll Learn
 
 This project provides a complete learning path for understanding and implementing RAG systems, from basic concepts to production-ready web applications.
 
-### 🎯 Learning Objectives:
+###  Learning Objectives:
 - **Understanding RAG**: Core concepts, architecture, and use cases
 - **Data Collection**: Scraping Wikipedia, ArXiv, and other sources
 - **Text Processing**: Chunking, preprocessing, and optimization
@@ -33,18 +33,18 @@ This project provides a complete learning path for understanding and implementin
 - **Production Deployment**: Web apps, APIs, and hosting
 - **Advanced Topics**: Reranking, query expansion, optimization
 
-## ✨ Key Features
+##  Key Features
 
-- 🔥 **10 Interactive Jupyter Notebooks** - Step-by-step learning
-- 🚀 **Production-Ready Code** - Real-world implementation
-- 🗄️ **Multiple Vector Databases** - ChromaDB, FAISS, Pinecone
-- 🤖 **LLM Integration** - OpenAI, local models, custom prompts
-- 📊 **Comprehensive Evaluation** - Metrics and performance analysis
-- 🌐 **Web Applications** - FastAPI, Streamlit, deployment ready
-- 🐳 **Docker Support** - Easy deployment and scaling
-- 📈 **Performance Optimization** - Caching, batching, monitoring
+-  **10 Interactive Jupyter Notebooks** - Step-by-step learning
+-  **Production-Ready Code** - Real-world implementation
+-  **Multiple Vector Databases** - ChromaDB, FAISS, Pinecone
+-  **LLM Integration** - OpenAI, local models, custom prompts
+-  **Comprehensive Evaluation** - Metrics and performance analysis
+-  **Web Applications** - FastAPI, Streamlit, deployment ready
+-  **Docker Support** - Easy deployment and scaling
+-  **Performance Optimization** - Caching, batching, monitoring
 
-## 🎯 Perfect For
+##  Perfect For
 
 - **Machine Learning Engineers** - Learn RAG implementation
 - **Data Scientists** - Understand retrieval systems
@@ -53,7 +53,7 @@ This project provides a complete learning path for understanding and implementin
 - **Developers** - Build production RAG applications
 - **Anyone** - Interested in AI and natural language processing
 
-## 🏆 Use Cases
+##  Use Cases
 
 - **Question Answering Systems** - Build intelligent Q&A bots
 - **Document Search** - Create semantic search engines
@@ -62,7 +62,7 @@ This project provides a complete learning path for understanding and implementin
 - **Research Tools** - Analyze and summarize documents
 - **Customer Support** - Automated help systems
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Python 3.9+** - Core programming language
 - **Jupyter Notebooks** - Interactive learning environment
@@ -78,7 +78,7 @@ This project provides a complete learning path for understanding and implementin
 - **pandas** - Data manipulation
 - **numpy** - Numerical computing
 
-## 🔍 Keywords
+##  Keywords
 
 `RAG` `Retrieval-Augmented Generation` `Machine Learning` `AI` `Natural Language Processing` `Vector Database` `Embeddings` `ChromaDB` `FAISS` `Pinecone` `OpenAI` `Jupyter Notebooks` `Python` `Tutorial` `Learning` `Semantic Search` `Question Answering` `Chatbot` `Document Search` `Knowledge Management` `LLM` `Language Model` `Text Processing` `Information Retrieval` `Production Deployment` `Web Application` `API` `Docker` `FastAPI` `Streamlit`
 
@@ -209,25 +209,25 @@ Use the provided Dockerfile with ECS, Cloud Run, or other container services.
 
 ```
 LLM/
-├── notebooks/           # Learning notebooks (1-10)
-├── src/                # Source code modules
-│   ├── vector_db/      # Production vector database system
-│   ├── data/           # Data collection and preprocessing
-│   ├── models/         # Embedding and LLM models
-│   ├── retrieval/      # Retrieval systems
-│   ├── evaluation/     # Evaluation metrics
-│   └── optimization/   # Performance optimization
-├── data/               # Data storage
-│   ├── raw/            # Raw data (Wikipedia, ArXiv)
-│   ├── processed/      # Processed data (chunks, embeddings)
-│   └── vector_db/      # Vector databases (ChromaDB, FAISS)
-├── web_app.py          # Main web application
-├── web_app_vector.py   # Vector database web application
-├── advanced_app.py     # Advanced production system
-├── requirements.txt    # Dependencies
-├── Dockerfile          # Docker configuration
-├── deploy_now.sh       # Deployment script
-└── README.md           # This file
+ notebooks/           # Learning notebooks (1-10)
+ src/                # Source code modules
+    vector_db/      # Production vector database system
+    data/           # Data collection and preprocessing
+    models/         # Embedding and LLM models
+    retrieval/      # Retrieval systems
+    evaluation/     # Evaluation metrics
+    optimization/   # Performance optimization
+ data/               # Data storage
+    raw/            # Raw data (Wikipedia, ArXiv)
+    processed/      # Processed data (chunks, embeddings)
+    vector_db/      # Vector databases (ChromaDB, FAISS)
+ web_app.py          # Main web application
+ web_app_vector.py   # Vector database web application
+ advanced_app.py     # Advanced production system
+ requirements.txt    # Dependencies
+ Dockerfile          # Docker configuration
+ deploy_now.sh       # Deployment script
+ README.md           # This file
 ```
 
 ## Features

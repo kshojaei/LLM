@@ -18,7 +18,7 @@ if ! command -v python3 &> /dev/null; then
 fi
 
 # Install dependencies
-echo "📦 Installing dependencies..."
+echo " Installing dependencies..."
 pip install -r requirements.txt
 
 # Test the application
