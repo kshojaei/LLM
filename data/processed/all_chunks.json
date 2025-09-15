@@ -96,258 +96,194 @@
     }
   },
   {
-    "text": "The advancement of open-source text-to-image (T2I) models has been hindered by the absence of large-scale, reasoning-focused datasets and comprehensive evaluation benchmarks, resulting in a performance gap compared to leading closed-source systems To address this challenge, We introduce FLUX-Reason-6M and PRISM-Bench (Precise and Robust Image Synthesis Measurement Benchmark)",
+    "text": "In this paper, we propose a training-free framework for vision-and-language navigation (VLN) Existing zero-shot VLN methods are mainly designed for discrete environments or involve unsupervised training in continuous simulator environments, which makes it challenging to generalize and deploy them in real-world scenarios",
     "type": "semantic",
     "chunk_id": "arxiv_0_chunk_0",
     "source_doc_id": "arxiv_0",
-    "source_title": "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning\n  Dataset and Comprehensive Benchmark",
+    "source_title": "GC-VLN: Instruction as Graph Constraints for Training-free\n  Vision-and-Language Navigation",
     "source": "arxiv",
     "chunk_index": 0,
-    "word_count": 47,
-    "char_count": 377,
+    "word_count": 42,
+    "char_count": 321,
     "metadata": {
-      "original_length": 1595,
-      "cleaned_length": 1592,
+      "original_length": 1657,
+      "cleaned_length": 1656,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "FLUX-Reason-6M is a massive dataset consisting of 6 million high-quality FLUX-generated images and 20 million bilingual (English and Chinese) descriptions specifically designed to teach complex reasoning The image are organized according to six key characteristics: Imagination, Entity, Text rendering, Style, Affection, and Composition, and design explicit Generation Chain-of-Thought (GCoT) to provide detailed breakdowns of image generation steps",
+    "text": "To achieve a training-free framework in continuous environments, our framework formulates navigation guidance as graph constraint optimization by decomposing instructions into explicit spatial constraints The constraint-driven paradigm decodes spatial semantics through constraint solving, enabling zero-shot adaptation to unseen environments Specifically, we construct a spatial constraint library covering all types of spatial relationship mentioned in VLN instructions",
     "type": "semantic",
     "chunk_id": "arxiv_0_chunk_1",
     "source_doc_id": "arxiv_0",
-    "source_title": "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning\n  Dataset and Comprehensive Benchmark",
+    "source_title": "GC-VLN: Instruction as Graph Constraints for Training-free\n  Vision-and-Language Navigation",
     "source": "arxiv",
     "chunk_index": 1,
-    "word_count": 57,
-    "char_count": 449,
+    "word_count": 56,
+    "char_count": 471,
     "metadata": {
-      "original_length": 1595,
-      "cleaned_length": 1592,
+      "original_length": 1657,
+      "cleaned_length": 1656,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "The whole data curation takes 15,000 A100 GPU days, providing the community with a resource previously unattainable outside of large industrial labs PRISM-Bench offers a novel evaluation standard with seven distinct tracks, including a formidable Long Text challenge using GCoT Through carefully designed prompts, it utilizes advanced vision-language models for nuanced human-aligned assessment of prompt-image alignment and image aesthetics",
+    "text": "The human instruction is decomposed into a directed acyclic graph, with waypoint nodes, object nodes and edges, which are used as queries to retrieve the library to build the graph constraints The graph constraint optimization is solved by the constraint solver to determine the positions of waypoints, obtaining the robots navigation path and final goal To handle cases of no solution or multiple solutions, we construct a navigation tree and the backtracking mechanism",
     "type": "semantic",
     "chunk_id": "arxiv_0_chunk_2",
     "source_doc_id": "arxiv_0",
-    "source_title": "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning\n  Dataset and Comprehensive Benchmark",
+    "source_title": "GC-VLN: Instruction as Graph Constraints for Training-free\n  Vision-and-Language Navigation",
     "source": "arxiv",
     "chunk_index": 2,
-    "word_count": 59,
-    "char_count": 441,
+    "word_count": 73,
+    "char_count": 470,
     "metadata": {
-      "original_length": 1595,
-      "cleaned_length": 1592,
+      "original_length": 1657,
+      "cleaned_length": 1656,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "Our extensive evaluation of 19 leading models on PRISM-Bench reveals critical performance gaps and highlights specific areas requiring improvement Our dataset, benchmark, and evaluation code are released to catalyze the next wave of reasoning-oriented T2I generation Project page: https:flux-reason-6m",
+    "text": "Extensive experiments on standard benchmarks demonstrate significant improvements in success rate and navigation efficiency compared to state-of-the-art zero-shot VLN methods We further conduct real-world experiments to show that our framework can effectively generalize to new environments and instruction sets, paving the way for a more robust and autonomous navigation framework",
     "type": "semantic",
     "chunk_id": "arxiv_0_chunk_3",
     "source_doc_id": "arxiv_0",
-    "source_title": "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning\n  Dataset and Comprehensive Benchmark",
+    "source_title": "GC-VLN: Instruction as Graph Constraints for Training-free\n  Vision-and-Language Navigation",
     "source": "arxiv",
     "chunk_index": 3,
-    "word_count": 39,
-    "char_count": 301,
+    "word_count": 50,
+    "char_count": 381,
     "metadata": {
-      "original_length": 1595,
-      "cleaned_length": 1592,
+      "original_length": 1657,
+      "cleaned_length": 1656,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "Large language models require massive memory footprints, severely limiting deployment on consumer hardware Quantization reduces memory through lower numerical precision, but extreme 2-bit quantization suffers from catastrophic performance loss due to outliers in activations Rotation-based methods such as QuIP and QuaRot apply orthogonal transforms to eliminate outliers before quantization, using computational invariance: mathbfy mathbfWx (mathbfWQT)(mathbfQx) for orthogonal mathbfQ",
+    "text": "Alzheimers disease is a progressive, neurodegenerative disorder that causes memory loss and cognitive decline While there has been extensive research in applying deep learning models to Alzheimers prediction tasks, these models remain limited by lack of available labeled data, poor generalization across datasets, and inflexibility to varying numbers of input scans and time intervals between scans",
     "type": "semantic",
     "chunk_id": "arxiv_1_chunk_0",
     "source_doc_id": "arxiv_1",
-    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
+    "source_title": "SSL-AD: Spatiotemporal Self-Supervised Learning for Generalizability and\n  Adaptability Across Alzheimer's Prediction Tasks and Datasets",
     "source": "arxiv",
     "chunk_index": 0,
-    "word_count": 58,
-    "char_count": 486,
+    "word_count": 56,
+    "char_count": 399,
     "metadata": {
-      "original_length": 1790,
-      "cleaned_length": 1740,
+      "original_length": 1342,
+      "cleaned_length": 1335,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "However, these methods use fixed transforms--Hadamard matrices achieving optimal worst-case coherence mu 1sqrtn--that cannot adapt to specific weight distributions We identify that different transformer layers exhibit distinct outlier patterns, motivating layer-adaptive rotations rather than one-size-fits-all approaches We propose ButterflyQuant, which replaces Hadamard rotations with learnable butterfly transforms parameterized by continuous Givens rotation angles",
+    "text": "In this study, we adapt three state-of-the-art temporal self-supervised learning (SSL) approaches for 3D brain MRI analysis, and add novel extensions designed to handle variable-length inputs and learn robust spatial features We aggregate four publicly available datasets comprising 3,161 patients for pre-training, and show the performance of our model across multiple Alzheimers prediction tasks including diagnosis classification, conversion detection, and future conversion prediction",
     "type": "semantic",
     "chunk_id": "arxiv_1_chunk_1",
     "source_doc_id": "arxiv_1",
-    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
-    "source": "arxiv",
-    "chunk_index": 1,
-    "word_count": 53,
-    "char_count": 469,
-    "metadata": {
-      "original_length": 1790,
-      "cleaned_length": 1740,
-      "chunking_strategy": "semantic"
-    }
-  },
-  {
-    "text": "Unlike Hadamards discrete 1, -1 entries that are non-differentiable and prohibit gradient-based learning, butterfly transforms continuous parameterization enables smooth optimization while guaranteeing orthogonality by construction This orthogonal constraint ensures theoretical guarantees in outlier suppression while achieving O(n log n) computational complexity with only fracn log n2 learnable parameters",
-    "type": "semantic",
-    "chunk_id": "arxiv_1_chunk_2",
-    "source_doc_id": "arxiv_1",
-    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
-    "source": "arxiv",
-    "chunk_index": 2,
-    "word_count": 48,
-    "char_count": 408,
-    "metadata": {
-      "original_length": 1790,
-      "cleaned_length": 1740,
-      "chunking_strategy": "semantic"
-    }
-  },
-  {
-    "text": "We further introduce a uniformity regularization on post-transformation activations to promote smoother distributions amenable to quantization Learning requires only 128 calibration samples and converges in minutes on a single GPU--a negligible one-time cost On LLaMA-2-7B with 2-bit quantization, ButterflyQuant achieves 15 4 perplexity versus 22 1 for QuaRot",
-    "type": "semantic",
-    "chunk_id": "arxiv_1_chunk_3",
-    "source_doc_id": "arxiv_1",
-    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
-    "source": "arxiv",
-    "chunk_index": 3,
-    "word_count": 48,
-    "char_count": 360,
-    "metadata": {
-      "original_length": 1790,
-      "cleaned_length": 1740,
-      "chunking_strategy": "semantic"
-    }
-  },
-  {
-    "text": "Large language models require massive memory footprints, severely limiting deployment on consumer hardware Quantization reduces memory through lower numerical precision, but extreme 2-bit quantization suffers from catastrophic performance loss due to outliers in activations Rotation-based methods such as QuIP and QuaRot apply orthogonal transforms to eliminate outliers before quantization, using computational invariance: mathbfy mathbfWx (mathbfWQT)(mathbfQx) for orthogonal mathbfQ",
-    "type": "semantic",
-    "chunk_id": "arxiv_2_chunk_0",
-    "source_doc_id": "arxiv_2",
-    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
-    "source": "arxiv",
-    "chunk_index": 0,
-    "word_count": 58,
-    "char_count": 486,
-    "metadata": {
-      "original_length": 1790,
-      "cleaned_length": 1740,
-      "chunking_strategy": "semantic"
-    }
-  },
-  {
-    "text": "However, these methods use fixed transforms--Hadamard matrices achieving optimal worst-case coherence mu 1sqrtn--that cannot adapt to specific weight distributions We identify that different transformer layers exhibit distinct outlier patterns, motivating layer-adaptive rotations rather than one-size-fits-all approaches We propose ButterflyQuant, which replaces Hadamard rotations with learnable butterfly transforms parameterized by continuous Givens rotation angles",
-    "type": "semantic",
-    "chunk_id": "arxiv_2_chunk_1",
-    "source_doc_id": "arxiv_2",
-    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
-    "source": "arxiv",
-    "chunk_index": 1,
-    "word_count": 53,
-    "char_count": 469,
-    "metadata": {
-      "original_length": 1790,
-      "cleaned_length": 1740,
-      "chunking_strategy": "semantic"
-    }
-  },
-  {
-    "text": "Unlike Hadamards discrete 1, -1 entries that are non-differentiable and prohibit gradient-based learning, butterfly transforms continuous parameterization enables smooth optimization while guaranteeing orthogonality by construction This orthogonal constraint ensures theoretical guarantees in outlier suppression while achieving O(n log n) computational complexity with only fracn log n2 learnable parameters",
-    "type": "semantic",
-    "chunk_id": "arxiv_2_chunk_2",
-    "source_doc_id": "arxiv_2",
-    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
-    "source": "arxiv",
-    "chunk_index": 2,
-    "word_count": 48,
-    "char_count": 408,
-    "metadata": {
-      "original_length": 1790,
-      "cleaned_length": 1740,
-      "chunking_strategy": "semantic"
-    }
-  },
-  {
-    "text": "We further introduce a uniformity regularization on post-transformation activations to promote smoother distributions amenable to quantization Learning requires only 128 calibration samples and converges in minutes on a single GPU--a negligible one-time cost On LLaMA-2-7B with 2-bit quantization, ButterflyQuant achieves 15 4 perplexity versus 22 1 for QuaRot",
-    "type": "semantic",
-    "chunk_id": "arxiv_2_chunk_3",
-    "source_doc_id": "arxiv_2",
-    "source_title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable\n  Orthogonal Butterfly Transforms",
-    "source": "arxiv",
-    "chunk_index": 3,
-    "word_count": 48,
-    "char_count": 360,
-    "metadata": {
-      "original_length": 1790,
-      "cleaned_length": 1740,
-      "chunking_strategy": "semantic"
-    }
-  },
-  {
-    "text": "Vision-Language-Action (VLA) models have recently emerged as a powerful paradigm for robotic manipulation Despite substantial progress enabled by large-scale pretraining and supervised fine-tuning (SFT), these models face two fundamental challenges: (i) the scarcity and high cost of large-scale human-operated robotic trajectories required for SFT scaling, and (ii) limited generalization to tasks involving distribution shift",
-    "type": "semantic",
-    "chunk_id": "arxiv_3_chunk_0",
-    "source_doc_id": "arxiv_3",
-    "source_title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
-    "source": "arxiv",
-    "chunk_index": 0,
-    "word_count": 54,
-    "char_count": 427,
-    "metadata": {
-      "original_length": 1508,
-      "cleaned_length": 1495,
-      "chunking_strategy": "semantic"
-    }
-  },
-  {
-    "text": "Recent breakthroughs in Large Reasoning Models (LRMs) demonstrate that reinforcement learning (RL) can dramatically enhance step-by-step reasoning capabilities, raising a natural question: Can RL similarly improve the long-horizon step-by-step action planning of VLA In this work, we introduce SimpleVLA-RL, an efficient RL framework tailored for VLA models Building upon veRL, we introduce VLA-specific trajectory sampling, scalable parallelization, multi-environment rendering, and optimized loss computation",
-    "type": "semantic",
-    "chunk_id": "arxiv_3_chunk_1",
-    "source_doc_id": "arxiv_3",
-    "source_title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
+    "source_title": "SSL-AD: Spatiotemporal Self-Supervised Learning for Generalizability and\n  Adaptability Across Alzheimer's Prediction Tasks and Datasets",
     "source": "arxiv",
     "chunk_index": 1,
     "word_count": 63,
-    "char_count": 510,
+    "char_count": 488,
     "metadata": {
-      "original_length": 1508,
-      "cleaned_length": 1495,
+      "original_length": 1342,
+      "cleaned_length": 1335,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "When applied to OpenVLA-OFT, SimpleVLA-RL achieves SoTA performance on LIBERO and even outperforms pi_0 on RoboTwin 1 0 with the exploration-enhancing strategies we introduce SimpleVLA-RL not only reduces dependence on large-scale data and enables robust generalization, but also remarkably surpasses SFT in real-world tasks Moreover, we identify a novel phenomenon pushcut during RL training, wherein the policy discovers previously unseen patterns beyond those seen in the previous training process",
+    "text": "Importantly, our SSL model implemented with temporal order prediction and contrastive learning outperforms supervised learning on six out of seven downstream tasks It demonstrates adaptability and generalizability across tasks and number of input images with varying time intervals, highlighting its capacity for robust performance across clinical applications We release our code and model publicly at https:github comemilykaczmarekSSL-AD",
     "type": "semantic",
-    "chunk_id": "arxiv_3_chunk_2",
-    "source_doc_id": "arxiv_3",
-    "source_title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
+    "chunk_id": "arxiv_1_chunk_2",
+    "source_doc_id": "arxiv_1",
+    "source_title": "SSL-AD: Spatiotemporal Self-Supervised Learning for Generalizability and\n  Adaptability Across Alzheimer's Prediction Tasks and Datasets",
     "source": "arxiv",
     "chunk_index": 2,
-    "word_count": 69,
-    "char_count": 500,
+    "word_count": 57,
+    "char_count": 439,
     "metadata": {
-      "original_length": 1508,
-      "cleaned_length": 1495,
+      "original_length": 1342,
+      "cleaned_length": 1335,
       "chunking_strategy": "semantic"
     }
   },
   {
-    "text": "Github: https:github comPRIME-RLSimpleVLA-RL",
+    "text": "Alzheimers disease is a progressive, neurodegenerative disorder that causes memory loss and cognitive decline While there has been extensive research in applying deep learning models to Alzheimers prediction tasks, these models remain limited by lack of available labeled data, poor generalization across datasets, and inflexibility to varying numbers of input scans and time intervals between scans",
     "type": "semantic",
-    "chunk_id": "arxiv_3_chunk_3",
-    "source_doc_id": "arxiv_3",
-    "source_title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
+    "chunk_id": "arxiv_2_chunk_0",
+    "source_doc_id": "arxiv_2",
+    "source_title": "SSL-AD: Spatiotemporal Self-Supervised Learning for Generalizability and\n  Adaptability Across Alzheimer's Prediction Tasks and Datasets",
     "source": "arxiv",
-    "chunk_index": 3,
-    "word_count": 3,
-    "char_count": 44,
+    "chunk_index": 0,
+    "word_count": 56,
+    "char_count": 399,
     "metadata": {
-      "original_length": 1508,
-      "cleaned_length": 1495,
+      "original_length": 1342,
+      "cleaned_length": 1335,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "In this study, we adapt three state-of-the-art temporal self-supervised learning (SSL) approaches for 3D brain MRI analysis, and add novel extensions designed to handle variable-length inputs and learn robust spatial features We aggregate four publicly available datasets comprising 3,161 patients for pre-training, and show the performance of our model across multiple Alzheimers prediction tasks including diagnosis classification, conversion detection, and future conversion prediction",
+    "type": "semantic",
+    "chunk_id": "arxiv_2_chunk_1",
+    "source_doc_id": "arxiv_2",
+    "source_title": "SSL-AD: Spatiotemporal Self-Supervised Learning for Generalizability and\n  Adaptability Across Alzheimer's Prediction Tasks and Datasets",
+    "source": "arxiv",
+    "chunk_index": 1,
+    "word_count": 63,
+    "char_count": 488,
+    "metadata": {
+      "original_length": 1342,
+      "cleaned_length": 1335,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "Importantly, our SSL model implemented with temporal order prediction and contrastive learning outperforms supervised learning on six out of seven downstream tasks It demonstrates adaptability and generalizability across tasks and number of input images with varying time intervals, highlighting its capacity for robust performance across clinical applications We release our code and model publicly at https:github comemilykaczmarekSSL-AD",
+    "type": "semantic",
+    "chunk_id": "arxiv_2_chunk_2",
+    "source_doc_id": "arxiv_2",
+    "source_title": "SSL-AD: Spatiotemporal Self-Supervised Learning for Generalizability and\n  Adaptability Across Alzheimer's Prediction Tasks and Datasets",
+    "source": "arxiv",
+    "chunk_index": 2,
+    "word_count": 57,
+    "char_count": 439,
+    "metadata": {
+      "original_length": 1342,
+      "cleaned_length": 1335,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "Pretrained automatic speech recognition (ASR) models such as Whisper perform well but still need domain adaptation to handle unseen vocabulary and parlance In many real-world settings, collecting speech data is impractical, necessitating text-only adaptation We propose WhisTLE, a deeply supervised, text-only adaptation method for pretrained encoder-decoder ASR models",
+    "type": "semantic",
+    "chunk_id": "arxiv_3_chunk_0",
+    "source_doc_id": "arxiv_3",
+    "source_title": "WhisTLE: Deeply Supervised, Text-Only Domain Adaptation for Pretrained\n  Speech Recognition Transformers",
+    "source": "arxiv",
+    "chunk_index": 0,
+    "word_count": 48,
+    "char_count": 369,
+    "metadata": {
+      "original_length": 871,
+      "cleaned_length": 870,
+      "chunking_strategy": "semantic"
+    }
+  },
+  {
+    "text": "WhisTLE trains a variational autoencoder (VAE) to model encoder outputs from text and fine-tunes the decoder using the learned text-to-latent encoder, optionally combined with text-to-speech (TTS) adaptation At inference, the original encoder is restored, incurring no extra runtime cost Across four out-of-domain datasets and four ASR models, WhisTLE with TTS reduces word error rate (WER) by 12 3 relative to TTS-only adaptation and outperforms all non-WhisTLE baselines in 27 of 32 scenarios",
+    "type": "semantic",
+    "chunk_id": "arxiv_3_chunk_1",
+    "source_doc_id": "arxiv_3",
+    "source_title": "WhisTLE: Deeply Supervised, Text-Only Domain Adaptation for Pretrained\n  Speech Recognition Transformers",
+    "source": "arxiv",
+    "chunk_index": 1,
+    "word_count": 72,
+    "char_count": 494,
+    "metadata": {
+      "original_length": 871,
+      "cleaned_length": 870,
       "chunking_strategy": "semantic"
     }
   }
