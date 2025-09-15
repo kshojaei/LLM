@@ -1,9 +1,5 @@
 # RAG Learning Project: Complete Guide to Retrieval-Augmented Generation
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![RAG](https://img.shields.io/badge/RAG-Tutorial-purple)](https://github.com/kshojaei/rag-docs-copilot)
 
 A comprehensive, hands-on project for learning **Retrieval-Augmented Generation (RAG)** systems from scratch to production deployment. Perfect for beginners and intermediate developers who want to understand and build RAG applications.
 
